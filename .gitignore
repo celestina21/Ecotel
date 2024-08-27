@@ -13,7 +13,6 @@
 build/
 coverage/
 lib/generated_plugin_registrant.dart
-pubspec.lock
 
 # Android related
 **/android/**/gradle-wrapper.jar
@@ -83,6 +82,11 @@ pubspec.lock
 ### Additional Exclusions ###
 # Ignore additional .gitignore files
 .gitignore
+*.iml
 
 # Ignore README file
 README.md
+
+# Exclude Firebase configuration files
+google-services.json
+GoogleService-Info.plist
