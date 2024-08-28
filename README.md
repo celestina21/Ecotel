@@ -4,9 +4,13 @@
 #### Created for Mobile Application Development module
 
 # Table of Contents 
+- [Features](#features)
 - [Tools Used](#tools-used)
 - [Additional Sources](#additional-notes)
 - [Image Sources](#image-sources)
+
+## Tools Used 
+- TBA 
 
 ## Tools Used 
 - Flutter framework (Dart)
