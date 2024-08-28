@@ -10,7 +10,48 @@
 - [Image Sources](#image-sources)
 
 ## Features
-- TBA 
+1. Authentication
+  - Register
+    - Receive email and password credentials to register a new user.  
+  - Login
+    - Receive email and password credentials to log a user in. 
+  - Login with Gmail
+    - Log (new and existing) users into the app using Gmail credentials. 
+  - Reset Password
+    - Resets a user’s password if they click a “Forgot Password” button at the login page.  
+  - Change Password
+    - Option given at Account page. The function changes the user’s current password to a new one that they will fill in and submit at a form for changing passwords. 
+2. Database-Related
+  - Display All Hotels 
+    - Gathers all hotels to displays a preview of them containing some basic information (name, location, star rating).
+  - Search
+    - User enters a hotel name into a search bar and a hotel of the same name will be retrieved from the database and displayed. 
+  - Filter Hotels (on Home page) by location attributes (Country, City)
+    - Filters the hotels displayed to only those in the specified country and/or city.  
+  - Sort Hotels (on Home page) by star rating
+    - Sorts the order in which hotels appear according to star rating.   
+  - Display Hotel’s Details
+    - Gets all details of a selected hotel to display them on Hotel Details page (name, star rating, location, street address, sustainability certifications, sustainability practices)
+    - Specific details (eg: sustainability certifications) of a certain hotel are also retrieved to be displayed in the respective editing pages. 
+  - Add Hotel
+    - User goes through a form to enter the hotel's details and cover image to add the hotel.
+  - Update Hotel's Details
+    - User selects which details to change to go to their respective editing pages.
+    - Basic details: name, star rating, location, street address
+    - Sustainability certifications
+    - Sustainability Practices
+    - Cover image 
+  - Delete Hotel
+    - Removes the hotel from the database.
+3. Additional
+  - Text to Speech for Hotel Details
+    - Reads a description of the hotel’s details.  
+  - Share Hotel
+    - Allows user to share a hotel’s details to social apps such as WhatsApp and X.
+    - This information is sent with a link to Google Play for the recipient to download the app if they would like more. (App is not published, however, so it does not lead to this app) 
+  - Contact Owner
+    - Launches email from the app for user to contact the hotel owner regarding any queries.
+    - The recipient and subject of the email would be filled in automatically for the user.  
 
 ## Tools Used 
 - Flutter framework (Dart)
@@ -30,7 +71,7 @@
   - url_launcher ^6.3.0
   - clipboard ^0.1.3
 - Google Cloud Firebase (Storage, Authentication)
-- Google Cloud Firestore
+- Google Cloud Firestore (Database)
   
 ## Additional Notes
 *To recreate, set `multiDexEnabled true` in defaultConfig within android/app/build.gradle to be able to use Firebase functionalities 
