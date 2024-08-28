@@ -1,9 +1,14 @@
 # Ecotel - Multi-Platform (Web, Mobile) Hotel Discovery Application
 ## An application working on mobile phone and web browser that enables users to add a hotel with its sustainability details and/or view hotels submitted to the application. 
-## The application was proposed to encourage sustainable tourism by making hotels' sustainability details accessible to and upfront for travellers.   
+### The application was proposed to encourage sustainable tourism by making hotels' sustainability details accessible to and upfront for travellers.   
 ### Created for Mobile Application Development module
 
-Used: 
+## Table of Contents 
+- [Tools Used](#tools-used)
+- [Additional Sources](#additional-notes)
+- [Image Sources](#image-sources)
+
+## Tools Used 
 - Flutter framework (Dart)
 - Flutter packages:
   - firebase_core ^3.2.0
@@ -23,7 +28,7 @@ Used:
 - Google Cloud Firebase (Storage, Authentication)
 - Google Cloud Firestore
   
-
+## Additional Notes
 *To recreate, set `multiDexEnabled true` in defaultConfig within android/app/build.gradle to be able to use Firebase functionalities 
 Eg (can also be seen in repo's android/app/build.gradle line 46): 
 ```
@@ -40,7 +45,7 @@ Eg (can also be seen in repo's android/app/build.gradle line 46):
     }
 ```
 
-
+## Image Sources 
 The following illustrations were retrieved from [unDraw](https://undraw.co/illustrations):
 - add_hotel_success.png
 - change_password.png
