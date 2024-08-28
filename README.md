@@ -1,9 +1,9 @@
 # Ecotel - Multi-Platform (Web, Mobile) Hotel Discovery Application
 ## An application working on mobile phone and web browser that enables users to add a hotel with its sustainability details and/or view hotels submitted to the application. 
 ### The application was proposed to encourage sustainable tourism by making hotels' sustainability details accessible to and upfront for travellers.   
-### Created for Mobile Application Development module
+#### Created for Mobile Application Development module
 
-## Table of Contents 
+# Table of Contents 
 - [Tools Used](#tools-used)
 - [Additional Sources](#additional-notes)
 - [Image Sources](#image-sources)
