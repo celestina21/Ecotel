@@ -3,6 +3,7 @@
 ### The application was proposed to encourage sustainable tourism by making hotels' sustainability details accessible to and upfront for travellers.   
 #### Created for Mobile Application Development module
 
+Video demonstration of application [here](https://youtu.be/9-Whs3eluCM) 
 # Table of Contents 
 - [Features](#features)
 - [Tools Used](#tools-used)
