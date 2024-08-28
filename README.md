@@ -23,6 +23,22 @@ Used:
 - Google Cloud Firebase (Storage, Authentication)
 - Google Cloud Firestore
 
+*To recreate, set `multiDexEnabled true` in defaultConfig within android/app/build.gradle to be able to use Firebase functionalities 
+Eg (can also be seen in repo's android/app/build.gradle line 46): 
+```
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "com.example.sohleecelest_2301028c_pc09"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
+        minSdkVersion 23
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        multiDexEnabled true
+    }
+```
+
 The following illustrations were retrieved from [unDraw](https://undraw.co/illustrations):
 - add_hotel_success.png
 - change_password.png
