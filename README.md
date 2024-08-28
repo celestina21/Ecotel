@@ -22,6 +22,7 @@ Used:
   - clipboard ^0.1.3
 - Google Cloud Firebase (Storage, Authentication)
 - Google Cloud Firestore
+  
 
 *To recreate, set `multiDexEnabled true` in defaultConfig within android/app/build.gradle to be able to use Firebase functionalities 
 Eg (can also be seen in repo's android/app/build.gradle line 46): 
@@ -38,6 +39,7 @@ Eg (can also be seen in repo's android/app/build.gradle line 46):
         multiDexEnabled true
     }
 ```
+
 
 The following illustrations were retrieved from [unDraw](https://undraw.co/illustrations):
 - add_hotel_success.png
