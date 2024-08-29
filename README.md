@@ -113,7 +113,7 @@ The following icons were retrieved from Flaticon:
 - whatsapp.png ([cobynecz](https://www.flaticon.com/authors/cobynecz))
 - x.png ([Freepik](https://www.flaticon.com/authors/freepik))
 
-The following icosn were retrieved from Google Fonts:
+The following icons were retrieved from Google Fonts:
 - certifications.png ([Workspace Premium icon, modified to fill ribbon section with black](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:workspace_premium:FILL@0;wght@400;GRAD@0;opsz@48&icon.query=certification&icon.size=200&icon.color=%23434343&icon.platform=web))
 - others.png ([Share icon](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:share:FILL@0;wght@400;GRAD@0;opsz@48&icon.query=share&icon.size=200&icon.color=%23000000&icon.platform=web))
 - sustainable_practices.png([Compost icon](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:compost:FILL@0;wght@400;GRAD@0;opsz@48&icon.query=sust&icon.size=200&icon.color=%23000000&icon.platform=web))
